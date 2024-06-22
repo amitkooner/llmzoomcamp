@@ -3,7 +3,7 @@ from elasticsearch import Elasticsearch
 # Initialize Elasticsearch client
 es = Elasticsearch(
     ['https://localhost:9200'],
-    basic_auth=('elastic', 'XqqHEf4B_3-7EGAhnO0L'),
+    basic_auth=('elastic', 'xxxx'),
     verify_certs=False  # Only for testing purposes
 )
 
